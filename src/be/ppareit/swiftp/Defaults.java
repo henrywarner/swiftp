@@ -21,7 +21,7 @@ along with SwiFTP.  If not, see <http://www.gnu.org/licenses/>.
 package be.ppareit.swiftp;
 
 public class Defaults {
-	protected static int inputBufferSize = 256;
+	protected static int inputBufferSize = 256; // test
 	public static int dataChunkSize = 65536;  // do file I/O in 64k chunks
 	public static final int tcpConnectionBacklog = 5;
 	public static final int SO_TIMEOUT_MS = 30000; // socket timeout millis
